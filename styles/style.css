@@ -1,18 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: #C6B8EB;
+}
+
 .box {
-    background-color: #1A0050; 
-    width: 50%;
+    background-image:linear-gradient(45deg,#270480 20%,#8C6DD8) ; 
+    width: 380px;
     height: 40vh;
     text-align: center;
     margin: 150px auto;
     font-family: 'Oswald', sans-serif;
     color: #FDFDFD;
     border-radius: 20px;
+    box-shadow: 8px 8px 8px  #1A054E;
 }
 
 input {
@@ -26,9 +33,26 @@ button {
     margin-top: 45px;
     width: 80px;
     height: 30px;
-    background-color: #5F28EB;
+    background-color: #1E0069;
     border: 1px;
     border-radius: 5px;
     color: #FFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    filter: brightness(100%);
+    transform: scale(1);
+    border: 2px solid #1A054E;
 }
 
+button:hover {
+    transition: 0.6s all ease;
+    transform: scale(1.1);
+    filter: brightness(150%);
+}
+
+footer {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #1A054E;
+}
