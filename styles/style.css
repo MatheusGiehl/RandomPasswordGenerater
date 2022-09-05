@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: #1A0050; 
+    width: 50%;
+    height: 40vh;
+    text-align: center;
+    margin: 150px auto;
+    font-family: 'Oswald', sans-serif;
+    color: #FDFDFD;
+    border-radius: 20px;
+}
+
+input {
+    margin-top: 65px;
+    height: 4vh;
+    width: 70%;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 45px;
+    width: 80px;
+    height: 30px;
+    background-color: #5F28EB;
+    border: 1px;
+    border-radius: 5px;
+    color: #FFF;
+}
+
